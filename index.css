@@ -1,0 +1,14 @@
+body{
+    background-color: antiquewhite;
+    padding-left: 50px;
+}
+h1, h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 3px 3px 3px rgb(218, 100, 100) ;
+}
+footer{
+    background-color: burlywood;
+}
+button{
+    color:rgb(218, 100, 100);
+}

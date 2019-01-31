@@ -9,6 +9,9 @@ $(document).ready(function(){
     $("#butt3").click(function(){
         prob3();
     })
+    $("#butt4").click(function(){
+        prob4();
+    })
 
 
 })
@@ -68,11 +71,16 @@ $("#output3").text("BMI is " + BMI);
 
 //problem 4
 var prob4 = function (){
+
 var hours;
 var minutes;
 var seconds;
 
 var time = $("#number6").val();
 
+hours = Math.floor(time);
+minutes = Math.ceil((time*60)-(hours*60));
+seconds = Math.floor(minutes*60);
 
+$("#output4").text( hours + " hours " + minutes + " minutes " + seconds + " seconds ");
 }
